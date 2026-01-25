@@ -1,6 +1,7 @@
 ﻿using System.Runtime.Remoting.Messaging;
 using System.Windows.Forms;
 using Microsoft.VisualBasic;
+using System;
 
 class DialogDemo
 {
@@ -8,13 +9,18 @@ class DialogDemo
     static void Main()
     {
 
-        string name = Interaction.InputBox("What's your name?",
-            "Let's meet...");
+        string dayWeek = Interaction.InputBox("Day of the week (with words):", 
+            "Day");
+        string month = Interaction.InputBox("Month (with words):",
+            "Month...");
+        int date = Int32.Parse(Interaction.InputBox("Date (with number):",
+            "Date"));
 
-        MessageBox.Show($"Nice to meet you, {name}!", 
-            "We are friends!",
-            MessageBoxButtons.YesNo,
-            MessageBoxIcon.Asterisk);
+        MessageBox.Show($"Today is {dayWeek} {date} {month}",
+            "Today",
+            MessageBoxButtons.OKCancel,
+            MessageBoxIcon.Information);
+        
 
     }
 
