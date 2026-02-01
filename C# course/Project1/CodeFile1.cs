@@ -1,26 +1,27 @@
-﻿using System.Runtime.Remoting.Messaging;
-using System.Windows.Forms;
-using Microsoft.VisualBasic;
+﻿using System.Windows.Forms;
 using System;
+using Microsoft.VisualBasic;
 
-class DialogDemo
+public class Project
 {
 
     static void Main()
     {
 
-        string dayWeek = Interaction.InputBox("Day of the week (with words):", 
-            "Day");
-        string month = Interaction.InputBox("Month (with words):",
-            "Month...");
-        int date = Int32.Parse(Interaction.InputBox("Date (with number):",
-            "Date"));
+        double n = 0;
+        double sum = 0;
+        double i = 0;
 
-        MessageBox.Show($"Today is {dayWeek} {date} {month}",
-            "Today",
-            MessageBoxButtons.OKCancel,
-            MessageBoxIcon.Information);
-        
+        n = Double.Parse(Interaction.InputBox("Input a number"));
+
+        do
+        {
+            sum += i * i;
+            i++;
+        } while (i <= n);
+
+        //(n*((n+1)*(2*n+1)))/6
+        MessageBox.Show($"The sum of the even numbers is: {sum}");
 
     }
 
