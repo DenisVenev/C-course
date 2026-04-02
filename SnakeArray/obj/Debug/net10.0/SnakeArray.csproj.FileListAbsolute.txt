@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\C# course\SnakeArray\bin\Debug\net10.0\SnakeArray.exe
+C:\Users\User\Desktop\C# course\SnakeArray\bin\Debug\net10.0\SnakeArray.deps.json
+C:\Users\User\Desktop\C# course\SnakeArray\bin\Debug\net10.0\SnakeArray.runtimeconfig.json
+C:\Users\User\Desktop\C# course\SnakeArray\bin\Debug\net10.0\SnakeArray.dll
+C:\Users\User\Desktop\C# course\SnakeArray\bin\Debug\net10.0\SnakeArray.pdb
+C:\Users\User\Desktop\C# course\SnakeArray\obj\Debug\net10.0\SnakeArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\C# course\SnakeArray\obj\Debug\net10.0\SnakeArray.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\C# course\SnakeArray\obj\Debug\net10.0\SnakeArray.AssemblyInfo.cs
+C:\Users\User\Desktop\C# course\SnakeArray\obj\Debug\net10.0\SnakeArray.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\C# course\SnakeArray\obj\Debug\net10.0\SnakeArray.dll
+C:\Users\User\Desktop\C# course\SnakeArray\obj\Debug\net10.0\refint\SnakeArray.dll
+C:\Users\User\Desktop\C# course\SnakeArray\obj\Debug\net10.0\SnakeArray.pdb
+C:\Users\User\Desktop\C# course\SnakeArray\obj\Debug\net10.0\SnakeArray.genruntimeconfig.cache
+C:\Users\User\Desktop\C# course\SnakeArray\obj\Debug\net10.0\ref\SnakeArray.dll
